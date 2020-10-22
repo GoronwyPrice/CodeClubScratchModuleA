@@ -15,4 +15,6 @@ For Scratch .SB3 files that have audio, remember to enable audio on your compute
 
 3 myModule1GhostBusters.sb3 (audio) (click the geen flag) (click on each character on the stage).
 
+4 myModule1Chatbot.sb3  (click on the character on the stage).
+
 
