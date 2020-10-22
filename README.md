@@ -19,6 +19,9 @@ For Scratch .SB3 files that have audio, remember to enable audio on your compute
 
 5 myModule1PaintBox.sb3 (click the geen flag) (click on each character on the stage). (Note: eraser works better with very a large width (eg 40, 80 etc) and writing works better with low widths (eg 3, 10 etc)
 
+6 myModule1PaintBoxRemix.sb3  (same as  myModule1PaintBox.sb3)
+
+
 
 
 
