@@ -23,3 +23,4 @@ For Scratch .SB3 files that have audio, remember to enable audio on your compute
 
 7 myModule1PaintBox_PickColour.sb3  (click the green flag) (click on each character on the stage). (keyboard keys e = erase all o = orange y=yellow g=green r=red space=black w=white) (Investigate pick_a_colour i.e. when you want the colour in the code to be exactly the same as a colour of an item on the stage. Note sometimes in the Scratch code you want to use and if-else construct to choose if two colours are the same of not the same and execute different code for these two circumstances. Try to change the white in the exising code to the red of the red square on the stage. Click on the white colour in the code to get a colour palett and chick on the colour-picker at the bottom of the pallett. Continue with this exercise.
 
+8 myModule1BoatRaceRemix.sb3 (click the green flag) 
