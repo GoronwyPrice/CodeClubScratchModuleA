@@ -1,6 +1,24 @@
 # CodeClubScratchModuleA
 These file are Scratch .SB3 files, that I produced using Scratch (version 3),  based on the Raspberry Pi Code Club (CC) Module Projects.
 
+
+How to load a SB3 Scratch file into a Scratch WebPage (version 3) (Windows 10.1)
+
+Internet Browser               scratch.mit.edu/projects/editor
+
+There is no need to SignIn, but you can if you want to. This web-link creates a base/empty Scratch project and a menu toolbar, and File is one of the items on the tool bar.
+
+Click on File and select:       Load from the computer.
+Navigate to your SB3 Scratch file and select the file. This will upload the SB3 Scratch file.
+
+Digression
+You might have the message: scratch.mit.edu says:  Replace contents of the current project?  OK or Cancel.  This probably occurs if you are signedIn to Scratch. Your current project should be a base/empty Scratch project and unimportant. So click on OK to upload your SB3 file. If your current project is not a base/empty Scratch project then click on Cancel and ensure that the current project has been saved in Scratch and try again, selecting OK this time
+
+End of How to load a SB3 Scratch file ...
+
+
+
+
 To see the Scratch code or costumes or sounds, click on each sprite icon below the stage (Bottom, Right), and select the appropriate tab (Top, Left).
 
 To run or use these scratch SB3 files either: (a) click on each sprite character on the stage (Top, Right) in turn or (b) click on the green flag to start.
