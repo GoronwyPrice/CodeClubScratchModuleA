@@ -49,4 +49,5 @@ For Scratch .SB3 files that have audio, remember to enable audio on your compute
   
 2 module2DodgeballRemixB.sb3 (click the green flag) (audio) (keyboard keys s  space  y  z   right arrow    left arrow  up arrow   dowm arrow)
 
+3  module2BrainGame.sb3  (click the green flag) (Click on the Play button)
 
