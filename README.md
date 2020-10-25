@@ -53,6 +53,7 @@ For Scratch .SB3 files that have audio, remember to enable audio on your compute
 
 4  module2CatchTheDots.sb3 (click the green flag) (audio) (keyboard keys right arrow  left-arrow)
 
+5 shellOfScratchGame.sb3 (click on the buttons)
 
 
 
