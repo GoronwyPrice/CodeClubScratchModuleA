@@ -51,3 +51,16 @@ For Scratch .SB3 files that have audio, remember to enable audio on your compute
 
 3  module2BrainGame.sb3  (click the green flag) (Click on the Play button)
 
+4  module2CatchTheDots.sb3 (click the green flag) (audio) (keyboard keys right arrow  left-arrow)
+
+
+
+
+PROBLEM: SCRATCH CODE PANEL, CODE STACK TRAPPED BEHIND THE CODE BLOCK PALETTE
+In the code panel, click on the minus(-) item a few times to reduce the magnification. This may make the trapped code blocks to jut-out from under the palette panel and therefore can be dragged back to the code panel. Drag the top-most block of a stack, otherwise the stack would break-up, givng you another problem to sort out.
+
+The following are list of items that have some control on the magnification and position of the code blocks in the Scratch code panel.
+
+(a) size of the Internet Browser window (reduced or maximum) (b) Internet Browser Zoom (eg 100%) (c) Scratch stage (where all the action takes place) size (reduced or maximum) (Top, Right) (d) Scratch code panel has three items:    +  -  and =. (e) Various vertical scrolls (f) Various horizontal scroll (g) Scratch code panel (Bottom, Centre), you may have to click Backup(etc...) until you get horizontal scroll. This horizontal scroll may be quite important to move the code blocks out from under the palette. (h) Use mouse pointer to drag the code blocks/stack, remember to use the top-most code block in the stack.
+
+PROBLEM:  TOP OF SCRATCH CODE PANEL,   START (green flag) & STOP (red hex button) BUTTONS DISAPPEARS    (a) Refresh the Internet browser
