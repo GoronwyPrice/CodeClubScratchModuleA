@@ -4,7 +4,7 @@ These files are Scratch .SB3 files, that I produced using Scratch (version 3),  
 
 How to load a SB3 Scratch file into a Scratch WebPage (version 3) (Windows 10.1)
 
-Internet Browser               scratch.mit.edu/projects/editor
+Internet Browser:               scratch.mit.edu/projects/editor
 
 There is no need to SignIn, but you can if you want to. This web-link creates a base/empty Scratch project and a menu toolbar, and File is one of the items on the tool bar.
 
@@ -12,7 +12,7 @@ Click on File and select:       Load from the computer.
 Navigate to your SB3 Scratch file and select the file. This will upload the SB3 Scratch file.
 
 Digression
-You might have the message: scratch.mit.edu says:  Replace contents of the current project?  OK or Cancel.  This probably occurs if you are signedIn to Scratch. Your current project should be a base/empty Scratch project and unimportant. So click on OK to upload your SB3 file. If your current project is not a base/empty Scratch project an important then click on Cancel and ensure that the current project has been saved in Scratch and try again, selecting OK this time 
+You might have the message: scratch.mit.edu says:  Replace contents of the current project?  OK or Cancel.  This probably occurs if you are signedIn to Scratch. Your current project should be a base/empty Scratch project and unimportant. So click on OK to upload your SB3 file. If your current project is not a base/empty Scratch project and is important then click on Cancel and ensure that the current project has been saved in Scratch and try again, selecting OK this time 
 
 End of How to load a SB3 Scratch file ...
 
@@ -41,7 +41,7 @@ For Scratch .SB3 files that have audio, remember to enable audio on your compute
 
 7 myModule1PaintBox_PickColour.sb3  (click the green flag) (click on each character on the stage). (keyboard keys e = erase all o = orange y=yellow g=green r=red space=black w=white) (Investigate pick_a_colour i.e. when you want the colour in the code to be exactly the same as a colour of an item on the stage. Note sometimes in the Scratch code you want to use an if-else construct to choose if two colours are the same or not the same and execute different code for these two circumstances. Try to change the white in the exising code to the red of the red square on the stage. Click on the white colour in the code to get a colour palett and click on the colour-picker at the bottom of the pallett. The screen dimms. Move the colour-picker icon carefully to the stage and align the colour-picker icon on the red square in the stage and click. Note, the need of the pick_a_colour arises because, using the above example, the red on the pallete may be slightly different to the red of the square on the stage.
 
-8 myModule1BoatRaceRemix.sb3 (click the green flag) (audio)
+8 myModule1BoatRaceRemix.sb3 (click the green flag) (audio).
 
 
 
@@ -55,6 +55,7 @@ For Scratch .SB3 files that have audio, remember to enable audio on your compute
 
 5 shellOfScratchGame.sb3 (click on the buttons)
 
+6  mySums.sb3 (click the green flag) (Click on the buttons)
 
 
 PROBLEM: SCRATCH CODE PANEL, CODE STACK TRAPPED BEHIND THE CODE BLOCK PALETTE
