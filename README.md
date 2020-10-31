@@ -61,3 +61,19 @@ The following are list of items that have some control on the magnification and 
 (a) size of the Internet Browser window (reduced or maximum) (b) Internet Browser Zoom (eg 100%) (c) Scratch stage (where all the action takes place) size (reduced or maximum) (Top, Right) (d) Scratch code panel has three items:    +  -  and =. (e) Various vertical scrolls (f) Various horizontal scroll (g) Scratch code panel (Bottom, Centre), you may have to click Backup(etc...) until you get horizontal scroll. This horizontal scroll may be quite important to move the code blocks out from under the palette. (h) Use mouse pointer to drag the code blocks/stack, remember to use the top-most code block in the stack.
 
 PROBLEM:  TOP OF SCRATCH CODE PANEL,   START (green flag) & STOP (red hex button) BUTTONS DISAPPEARS    (a) Refresh the Internet browser
+
+
+qed7Level1CrossTheRoad.sb3
+**************************
+up arrow moves the cat up by 1 step
+down  arrow moves the cat down by 1 step
+right  arrow moves the cat right by 1 step
+left arrow moves the cat left by 1 step
+
+The normal sequence for using this Scratch project is to first click the green flag to get the traffic moving. Then click the cat crossing button to get the cat to attempt to cross the road. The red hex button is used to stop/close Scratch project. If the cat is struck by the car then an accident message is displayed and the Scratch project is automatically stopped.
+
+If you want to, you can click the cat crossing button first and use this Scratch project with no traffic flowing.
+
+Note that the cat does the crossing in two stage, and it stops at the middle of the road. The user has to re-click the cat crossing button for the cat to complete its journey accross the road.
+
+
