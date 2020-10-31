@@ -21,7 +21,7 @@ To run or use these scratch SB3 files either: (a) click on each sprite character
 The red hex when clicked stops the running of the project.
 
 For Scratch .SB3 files that have audio, remember to enable audio on your computer so that you can hear the sounds from the stage.
-
+# SB3 Files
 1. DRUMversion2.sb3  (audio)  (click on space key on the keyboad) (click on each character on the stage).
 2. myModule1RockBand.sb3 (audio) (click on space key on the keyboad) (click the green flag).
 3. myModule1GhostBusters.sb3 (audio) (click the geen flag) (click on each character on the stage).
@@ -31,7 +31,7 @@ For Scratch .SB3 files that have audio, remember to enable audio on your compute
 7. myModule1PaintBox_PickColour.sb3  (click the green flag) (click on each character on the stage). (keyboard keys e = erase all o = orange y=yellow g=green r=red space=black w=white) (Investigate pick_a_colour i.e. when you want the colour in the code to be exactly the same as a colour of an item on the stage. Note sometimes in the Scratch code you want to use an if-else construct to choose if two colours are the same or not the same and execute different code for these two circumstances. Try to change the white in the exising code to the red of the red square on the stage. Click on the white colour in the code to get a colour palett and click on the colour-picker at the bottom of the pallett. The screen dimms. Move the colour-picker icon carefully to the stage and align the colour-picker icon on the red square in the stage and click. Note, the need of the pick_a_colour arises because, using the above example, the red on the pallete may be slightly different to the red of the square on the stage.
 8. myModule1BoatRaceRemix.sb3 (click the green flag) (audio).
 
-
+# SB3 Files
 
 1. Module2MemoryAA.sb3 (audio) Click the green flag and the dancer (sprite) on the stage starts to dance with a white dress and ends with a pink dress. Memorise the colour sequence of the dresses between the white & pink dresses. When the dancer reaches the pink dress, click the drums each in turn, on the stage in the same colour sequence that you memorised for the dancer. If you are successful, the dancer repeates the dance routine, but with one more dress. This continues, one more dress each time, until you click the red hex button to stop the project.
 2. module2DodgeballRemixB.sb3 (click the green flag) (audio) (keyboard keys s  space  y  z   right arrow    left arrow  up arrow   dowm arrow)
