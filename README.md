@@ -75,9 +75,22 @@ The keyboard key controls are:
 Click on the green flag to start the Scratch project and click the red hex button to stop the Scratch project.
 
 ## qed5Level1CarTrack.sb3
-The green flag start this Scratch project and the red button of the key s stops it
+The green flag start this Scratch project and the red button of the key s stops it.
 
+##6 qed6Level1TunnelOfGold.sb3
 
+The keyboard key controls are:
+
+1. left arrow moves cat left
+2. right arrow moves cat right
+3. down arrow moves cat down
+4. up arrow moves cat up
+5. The key 1 makes the stepsize to move 1 step for any of the above key operations
+6. The key 9 makes the stepsize to move 9 step for any of the above key operations
+7. s squeezes the cat (i.e. reduce its size)
+7. e extends the cat (i.e. increases its size)
+
+Green flag starts the scratch project abd red hex stops it
 
 ## qed7Level1CrossTheRoad.sb3
 1. up arrow moves the cat up by 1 step
