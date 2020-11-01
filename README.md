@@ -12,7 +12,7 @@ These files are Scratch .SB3 files, that I produced using Scratch (version 3),  
 8. Navigate to your sb3 file and Open
 9. scratch.mit.edu says: Replace contents of the current project
 10. NB Your current project should be a base/empty Scratch project and unimportant. So click on OK to upload your SB3 file. If your current project is not a base/empty Scratch project and is important then click on Cancel and ensure that the current project has been saved in Scratch and try again, selecting OK this time.
-11. file name box is:    has name of your file          This indicates that the SB3 Scratch file has been upload.
+11. file name box is:    has name of your file          This indicates that the SB3 Scratch file has been uploaded.
 
 To see the Scratch code or costumes or sounds, click on each sprite icon below the stage (Bottom, Right), and select the appropriate tab (Top, Left).
 
@@ -52,8 +52,9 @@ The following are list of items that have some control on the magnification and 
 (a) Refresh the Internet browser
 
 # SB3 Files 
-qed7Level1CrossTheRoad.sb3
-
+## qed1Level1HungryCat.sb3
+Click on the green flag to start the Scratch project. By using the mouse, guide the cat sprit to the apples.N ote that the cat eats each apple it touches. To re-start the Scratch project, click on the red hex button to stop the Scratch project, and then click on the green flag. Note that the apples are restored.
+## qed7Level1CrossTheRoad.sb3
 1. up arrow moves the cat up by 1 step
 2. down  arrow moves the cat down by 1 step
 3. right  arrow moves the cat right by 1 step
