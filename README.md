@@ -63,6 +63,16 @@ Click on the green flag to start the Scratch project. By using the mouse, guide 
 ## qed3Level1AmazingMaze.sb3
 Click on the green flag to start the Scratch project. By using the keyboard up, down, left & right arrow keys, guide the cat sprite through the maze. Click on the red hex button to stop the Scratch project
 
+## qed4Level1DriveMeCrazy.sb3
+The keyboard key controls are:#  
+1. left arrow turns the car left
+2. right arrow turns the car right
+3. space moves the car forward
+4. r reverses the car
+5. a this key start auto pilot mode
+
+Click on the green flag to start the Scratch project and click the red hex button to stop the Scratch project.
+
 ## qed7Level1CrossTheRoad.sb3
 1. up arrow moves the cat up by 1 step
 2. down  arrow moves the cat down by 1 step
