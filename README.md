@@ -14,7 +14,7 @@ These files are Scratch .SB3 files, that I produced using Scratch (version 3),  
 10. NB Your current project should be a base/empty Scratch project and unimportant. So click on OK to upload your SB3 file. If your current project is not a base/empty Scratch project and is important then click on Cancel and ensure that the current project has been saved in Scratch and try again, selecting OK this time.
 11. file name box is:    has name of your file          This indicates that the SB3 Scratch file has been uploaded.
 
-To see the Scratch code or costumes or sounds, click on each sprite icon below the stage (Bottom, Right), and select the appropriate tab (Top, Left).
+To see the Scratch code or costumes or sounds, click on each sprite icon below the stage (Bottom, Right), and select the appropriate tab (Top, Left). You can do similarly for the Backdrops; start by clicking Stage button on the Bottom, Right.
 
 To run or use these scratch SB3 files either: (a) click on each sprite character on the stage (Top, Right) in turn or (b) click on the green flag to start.
 
@@ -64,7 +64,8 @@ Click on the green flag to start the Scratch project. By using the mouse, guide 
 Click on the green flag to start the Scratch project. By using the keyboard up, down, left & right arrow keys, guide the cat sprite through the maze. Click on the red hex button to stop the Scratch project
 
 ## qed4Level1DriveMeCrazy.sb3
-The keyboard key controls are:#  
+The keyboard key controls are:
+
 1. left arrow turns the car left
 2. right arrow turns the car right
 3. space moves the car forward
