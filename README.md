@@ -53,7 +53,11 @@ The following are list of items that have some control on the magnification and 
 
 # SB3 Files 
 ## qed1Level1HungryCat.sb3
-Click on the green flag to start the Scratch project. By using the mouse, guide the cat sprit to the apples.N ote that the cat eats each apple it touches. To re-start the Scratch project, click on the red hex button to stop the Scratch project, and then click on the green flag. Note that the apples are restored.
+Click on the green flag to start the Scratch project. By using the mouse, guide the cat sprit to the apples. Note that the cat eats each apple it touches. To re-start the Scratch project, click on the red hex button to stop the Scratch project, and then click on the green flag. Note that the apples are restored.
+
+###### qed2Level1TreasureIsland.sb3
+Click on the green flag to start the Scratch project. By using the mouse, guide the ship sprit to the treaure. Click on the red hex button to stop the Scratch project,
+
 ## qed7Level1CrossTheRoad.sb3
 1. up arrow moves the cat up by 1 step
 2. down  arrow moves the cat down by 1 step
