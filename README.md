@@ -77,7 +77,7 @@ Click on the green flag to start the Scratch project and click the red hex butto
 ## qed5Level1CarTrack.sb3
 The green flag start this Scratch project and the red button of the key s stops it.
 
-##6 qed6Level1TunnelOfGold.sb3
+## qed6Level1TunnelOfGold.sb3
 
 The keyboard key controls are:
 
@@ -103,5 +103,22 @@ The normal sequence for using this Scratch project is to first click the green f
 If you want to, you can click the cat crossing button first and use this Scratch project with no traffic flowing.
 
 Note that the cat does the crossing in two stage, and it stops at the middle of the road. The user has to re-click the cat crossing button for the cat to complete its journey accross the road.
+
+# SB3 Files
+
+## qed1L2dogAndBone.sb3
+Click on Green flag to start and red hex button to stop.
+
+## qed2L2catchTheDoughnut.sb3
+Click on Green flag to start and red hex button to stop. Click on the falling donut to increase your score.
+
+## qed3L2upInTheClouds.sb3
+Click on Green flag to start and red hex button to stop. You can control the bi-plane by using the up sand down arrow keys on the keyboard
+
+## qed4L2goingInAsquare.sb3
+Click on Green flag to start and red hex button to stop. 
+
+## qed5L2perfectsquare.sb3
+Click on Green flag to start and red hex button to stop. 
 
 
