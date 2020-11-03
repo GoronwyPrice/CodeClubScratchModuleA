@@ -106,19 +106,19 @@ Note that the cat does the crossing in two stage, and it stops at the middle of 
 
 # SB3 Files
 
-## qed1L2dogAndBone.sb3
+## qedAAA1L2dogAndBone.sb3
 Click on Green flag to start and red hex button to stop.
 
-## qed2L2catchTheDoughnut.sb3
+## qedAAA2L2catchTheDoughnut.sb3
 Click on Green flag to start and red hex button to stop. Click on the falling donut to increase your score.
 
-## qed3L2upInTheClouds.sb3
-Click on Green flag to start and red hex button to stop. You can control the bi-plane by using the up sand down arrow keys on the keyboard
+## qedAAA3L2upInTheClouds.sb3
+Click on Green flag to start and red hex button to stop. You can control the bi-plane by using the up and down arrow keys on the keyboard
 
-## qed4L2goingInAsquare.sb3
+## qedAAA4L2goingInAsquare.sb3
 Click on Green flag to start and red hex button to stop. 
 
-## qed5L2perfectsquare.sb3
+## qedAAA5L2perfectsquare.sb3
 Click on Green flag to start and red hex button to stop. 
 
 
