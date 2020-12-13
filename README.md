@@ -152,7 +152,7 @@ Try to maintain a fine balance between these two extremes. Note the tower is cre
 helicopter, but there is nothing you can do about this.
 
 
-##qedL3BB3snake.sb3
+## qedL3BB3snake.sb3
 Click on the Green flag to start and red hex button to stop the game.
 
 The four keys , up, down, right & left keys when clicked alter the orientation of the head of the snake.
@@ -168,7 +168,7 @@ At the start of the main part of the game there are two parameters/variables tha
 (b) easy or difficult configuration of the game
 
 
-##qedL3BB4pingPong.sb3
+## qedL3BB4pingPong.sb3
 Click on the Green flag to start and red hex button to stop the game.
 The red bat on the left can be moved up or down by moving the mouse.
 The blue bat on the right can be moved up or down by clicking the up-arrow & down-arrow keys.
@@ -183,7 +183,7 @@ At the start of the main part of the game there is one parameter/variable that y
 4. cloneEg4.sb3
 5. cloneEg5.sb3
 
-##cloneEg1.sb3
+## cloneEg1.sb3
 Click on the Green flag to start and red hex button to stop the game. This project investigates CLONES.
 Note that the set of clones are based on the sprite selected when starting this Scratch coding.
 
@@ -200,19 +200,19 @@ Pressing the x key on the keyboad displays the values of the xLocal for each clo
 Pressing the d key on the keyboad deletes each clone created.
 
 
-##cloneEg2.sb3
+## cloneEg2.sb3
 Click on the Green flag to start and red hex button to stop the game. This project investigates CLONES.
 
 Pressing the n key on the keyboad displays the values of the xLocal for each clone created.
 Pressing the d key on the keyboad deletes each clone created.
 
-##cloneEg3.sb3
+## cloneEg3.sb3
 Click on the Green flag to start and red hex button to stop the game. This project investigates CLONES.
 
 Pressing the m key on the keyboad move the clones and the original sprite that the clones are based on
 Pressing the space key on the keyboad deletes each clone created.
 
-##cloneEg4.sb3
+## cloneEg4.sb3
 Click on the Green flag to start and red hex button to stop the game. This project investigates CLONES.
 
 Pressing the s key on the keyboad shows the clone data for each clone and the original sprite that the
@@ -220,7 +220,7 @@ clones are based on.
 
 Pressing the space key on the keyboad deletes each clone created.
 
-##cloneEg5.sb3
+## cloneEg5.sb3
 Click on the Green flag to start and red hex button to stop the game. This project investigates CLONES.
 
 Pressing the p key on the keyboad processes the clone data for each clone and the original sprite that the
@@ -228,25 +228,25 @@ clones are based on.
 
 Pressing the d key on the keyboad deletes each clone created.
 
-##To Delete a Variable in Scratch
+## To Delete a Variable in Scratch
 In your code,  edit out all occurances of the variable you want to delete.
 Click on the category Variables
 Right click on the actual variable you want to delete to get a dropdown list of options
 An option to delete the unused variable should be available
 
-##To Rename a Variable in Scratch
+## To Rename a Variable in Scratch
 Click on the category Variables
 Right click on the actual variable you want to rename to get a dropdown list of options
 An option to rename the variable should be available
 All occurances of the variable, you want to rename, should be automatically edited in the code
 by Scratch
 
-##To Delete a Message used in the broadcast code block
+## To Delete a Message used in the broadcast code block
 In your code,  manually edit out all occurances of the message you want to delete.
 Click the downward pointing arrow in the broadcast code block to get a dropdown list of options
 An option to delete the unused message should be available
 
-##To Rename a Message used in the broadcast code block
+## To Rename a Message used in the broadcast code block
 TODO
 
 
@@ -266,17 +266,17 @@ Replace contents of the current project    OK
 5. qedL4D4BrickBouncer.sb3 
 
 
-##qedL4D1catAndMouse.sb3
+## qedL4D1catAndMouse.sb3
 Click on the Green flag to start and red hex button to stop the game. This project uses CLONES.
 
 Pressing the up-arrow and down-arrow keys on the keyboad controls the y-position of the mouse.
 
-##qedL4D2catchThePizzas.sb3
+## qedL4D2catchThePizzas.sb3
 Click on the Green flag to start and red hex button to stop the game. This project uses CLONES.
 
 Pressing the left-arrow and right-arrow keys on the keyboad to controls the x-position of the cat sprite
 
-##qedL4D3RockBlaster.sb3
+## qedL4D3RockBlaster.sb3
 Click on the Green flag to start and red hex button to stop the game. This project uses CLONES.
 
 Pressing the up-arrow and down-arrow keys on the keyboad controls the y-position of the RocketShip Sprite.
@@ -287,7 +287,7 @@ Pressng the space key fires a laser (Button 2 sprite) at the Rocks (sprite)
 2. NOTE 2  Rock hit the RocketShip  is a failure
 
 
-##qedL4D4BalloonBuster.sb3
+## qedL4D4BalloonBuster.sb3
 Click on the Green Flag to start and red hex button to stop the game. This project uses:
 CLONES, MyBlocks ...
 
@@ -306,7 +306,7 @@ Pressing the key p displays the centre/rotation point of the Arrow Sprite
 Pressing the key m displays the oscillating mark/point of the first clone of the Sprite Balloon1
 
 
-##qedL4D5BalloonBuster.sb3
+## qedL4D5BalloonBuster.sb3
 Click on the Green Flag to start and red hex button to stop the game. This project uses:
 clone, broadcast ...
 
