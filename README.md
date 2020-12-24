@@ -314,3 +314,32 @@ Use the mouse to move the bat in the x-directions
 
 Sprite Brick Edit NoOfBrickClonesL
 Sprite Baseball Edit BaseBallSpeedSecL
+
+
+
+
+1. qedL5D1PenguinJumper.sb3
+2. List001one.sb3
+3. qedL5D2TowerSmash.sb3
+
+## qedL5D1PenguinJumper.sb3
+Click on the Green Flag to start and red hex button to stop the game. Position arrow  and click it  to do the jump
+Rename & delete  List
+
+
+## List001one.sb3
+Click on the Green Flag to start and red hex button to stop the game and Click the 'a' key on the keyboard
+It uses List.
+Right click on each list in turn in the Stage panel and select export
+
+Use 'Data > From Text'  in Excel to import two lists/txt-files
+eg   TimeSecLL.txt and  DistanceMeter.txt
+
+Use 'Insert >  Scatter > Scatter with Smooth Lines and Markers'
+
+## qedL5D2TowerSmash.sb3
+Click on the Green Flag to start and red hex button to stop the game. Position arrow  and click it  to do the firing
+Click on space key to toggle the x and y axis off/on
+Click on s key to display the hidden block/clones
+Click on d key to delete the  block/clones
+In the sprite Ball the variable Launches can be Edited
