@@ -298,12 +298,6 @@ Rename & delete  List
 ## List001one.sb3
 Click on the Green Flag to start and red hex button to stop the game and Click the 'a' key on the keyboard
 It uses List.
-Right click on each list in turn in the Stage panel and select export
-
-Use 'Data > From Text'  in Excel to import two lists/txt-files
-eg   TimeSecLL.txt and  DistanceMeter.txt
-
-Use 'Insert >  Scatter > Scatter with Smooth Lines and Markers'
 
 ## qedL5D2TowerSmash.sb3
 Click on the Green Flag to start and red hex button to stop the game. Position arrow  and click it  to do the firing
@@ -327,36 +321,100 @@ The following are list of items that have some control on the magnification and 
 6. Various horizontal scroll
 7. Scratch code panel (Bottom, Centre), you may have to click Backup(etc...) until you get horizontal scroll. This horizontal scroll may be quite important to move the code blocks out from under the palette
 
-## PROBLEM:  TOP OF SCRATCH CODE PANEL,   START (green flag) & STOP (red hex button) BUTTONS DISAPPEARS
-1. Refresh the Internet browser, but before doing this it would be a good idea to save the current code
+## PROBLEM:  TOP OF SCRATCH CODE PANEL, START (green flag) & STOP (red hex button) BUTTONS DISAPPEARS.  ALSO THE SPRITE ICON IS NOT AT THE TOP RIGHT OF THE CODE PANEL
+Click on another Sprite and then re-click on the sprite that was a problem
+
+or
+
+Refresh the Internet browser, but before doing this it would be a good idea to save the current code
+
+
+## Variables sometime are not displayed properly
+In the Code Block pallette, disable and re-enable the variable that is a problem
+
 
 ## To Delete a Variable in Scratch
-In your code,  edit out all occurances of the variable you want to delete.
-Click on the category Variables
-Right click on the actual variable you want to delete to get a dropdown list of options
-An option to delete the unused variable should be available
+1. In your code, edit out all occurances of the variable you want to delete.
+2. To do this you might need to first create a new variable that you want to replace the variable you want to delete
+2. Click on the category Variables.
+3. Right click on the actual variable you want to delete to get a dropdown list of options. An option to delete
+the unused variable should be available. 
 
 ## To Rename a Variable in Scratch
-Click on the category Variables
-Right click on the actual variable you want to rename to get a dropdown list of options
-An option to rename the variable should be available
-All occurances of the variable, you want to rename, should be automatically edited in the code
-by Scratch
+1. Click on the category Variables
+2. Right click on the actual variable you want to rename to get a dropdown list of options
+3. An option to rename the variable should be available
+4. All occurances of the variable, you want to rename, should be automatically edited in the code by Scratch
 
-## To Delete a Message used in the broadcast code block
-In your code,  manually edit out all occurances of the message you want to delete.
-Click the downward pointing arrow in the broadcast code block to get a dropdown list of options
-An option to delete the unused message should be available
-
-## To Rename a Message used in the broadcast code block
-TODO
+## To Rename/Delete a Message used in the broadcast code blocks
+I suspect that you cannot directly rename a message. What you can do is create a new message and
+edit your code such that the old message is not used. It looks to me that Scratch noticed that there
+is an unsed message and automatically deletes it.
 
 
-*************************************
-Scratch  > Sign In   >   My Stuff
-or
-Scratch  > Sign In   >   Create (untitled-3)   >   File   >  Load from your computer   >   
-Scratch.mit.edu   says
-Replace contents of the current project    OK
-**********************************
+## Minimal Notes On Running Up Scratch
+Scratch > Sign In > My Stuff > select a project archived in Scratch
+
+or 
+
+Scratch > Sign In > Create (untitled-3) > Close Tutorial > File > Load from your computer > select a sb3 Scratch file >
+Scratch.mit.edu says Replace contents of the current project > OK
+
+
+
+## Gradient/Fading Color for the Background, in Scratch
+
+1. Scratch > Backdrop > Paint > Costume eg BlueWhite1 > lowest magnification (-) > Outline set to zero width
+
+2. Disable the line/edge/outline box
+3. In Fill Box, click on the uniform button (there are 4 buttons at the top of the Fill Box) 
+4. Adjust the color ( eg Blue)
+5. Click on the button with the required gradient: horizontal, vertical or radial
+6. Adjust the  second color ( eg White)
+7.Click on Swap if necessary
+8. Click on a clear area to dismiss the Fill Box
+9. Click on Rectangle and draw a rectangle to cover all of the backdrop/panel/stage
+
+If you want to start anew, click on the selector arrow and select the backdrop. Then click on Delete.
+
+
+
+
+## Fill a Closed Shape Made From Lines For A Sprite, In Scratch
+
+1. Scratch > Sprite > Paint > Sprite Name > x = 0 & y = 0 > Show > Size = 100% > Direction = 90
+2. Tab Costume > Costume Name >
+3. This should give you a blank Stage panel and a blank Costume panel
+4. Adjust Fill Box and the Outline Box to be some paricular colors (same or different)
+5. The Fill Box should have the shape fill color and the Outline Box the line color.
+Adjust the thickness of the line as well.
+6. Click on line and draw a shape, eg a cake/pentagon,
+7. Make sure that the first point and the last point are the same location.
+8. Click on the Fill icon (pot of paint) and click on the shape.
+9. This should give you a shape, filled with the Fill Box color. and surrounded with the line color.
+10. Click on the select arrow icon and use it to check/position the shape marker and the centre point marker
+of the costume panel...
+
+If you want to start anew, click on the selector arrow and select the shape. Then click on Delete.
+
+NOTE Some shapes may require lines to conincide so as to have the first point and last point to
+coincide. For example, an arrow, as shown below. The lines are:  AB, BC, CD, DB and BA where
+line AB and BA coincide.
+
+'''
+                                                                         C
+                                                                         |  \
+                                                                         |    \
+                                      A ----------------------------------|----B
+                                                                         |    /
+                                                                         |  /
+                                                                         D
+'''
+
+## EXPORT DATA FROM A LIST AND DISPLAY IN EXCEL
+1. Right click on list the Stage panel and select export
+2. Use 'Data > From Text'  in Excel to import tHE lists/txt-files
+3. Use Insert >  Scatter > Scatter with Smooth Lines and Markers
+
+
 
