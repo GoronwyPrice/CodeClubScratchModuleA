@@ -371,7 +371,7 @@ Scratch.mit.edu says Replace contents of the current project > OK
 4. Adjust the color ( eg Blue)
 5. Click on the button with the required gradient: horizontal, vertical or radial
 6. Adjust the  second color ( eg White)
-7.Click on Swap if necessary
+7. Click on Swap if necessary
 8. Click on a clear area to dismiss the Fill Box
 9. Click on Rectangle and draw a rectangle to cover all of the backdrop/panel/stage
 
@@ -401,7 +401,7 @@ NOTE Some shapes may require lines to conincide so as to have the first point an
 coincide. For example, an arrow, as shown below. The lines are:  AB, BC, CD, DB and BA where
 line AB and BA coincide.
 
-'''
+<pre>
                                                                          C
                                                                          |  \
                                                                          |    \
@@ -409,11 +409,11 @@ line AB and BA coincide.
                                                                          |    /
                                                                          |  /
                                                                          D
-'''
+</pre>
 
 ## EXPORT DATA FROM A LIST AND DISPLAY IN EXCEL
 1. Right click on list the Stage panel and select export
-2. Use 'Data > From Text'  in Excel to import tHE lists/txt-files
+2. Use 'Data > From Text'  in Excel to import the lists/txt-files
 3. Use Insert >  Scatter > Scatter with Smooth Lines and Markers
 
 
