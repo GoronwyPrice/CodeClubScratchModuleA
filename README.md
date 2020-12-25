@@ -21,9 +21,9 @@ To run or use these scratch SB3 files either: (a) click on each sprite character
 The red hex when clicked stops the running of the project.
 
 For Scratch .SB3 files that have audio, remember to enable audio on your computer so that you can hear the sounds from the stage.
-__
-__
-__
+
+
+
 # SB3 Files
 1. DRUMversion2.sb3  (audio)  (click on space key on the keyboad) (click on each character on the stage).
 2. myModule1RockBand.sb3 (audio) (click on space key on the keyboad) (click the green flag).
@@ -33,7 +33,8 @@ __
 6. myModule1PaintBoxRemix.sb3  (same as  myModule1PaintBox.sb3) (keyboard key b=blue)
 7. myModule1PaintBox_PickColour.sb3  (click the green flag) (click on each character on the stage). (keyboard keys e = erase all o = orange y=yellow g=green r=red space=black w=white) (Investigate pick_a_colour i.e. when you want the colour in the code to be exactly the same as a colour of an item on the stage. Note sometimes in the Scratch code you want to use an if-else construct to choose if two colours are the same or not the same and execute different code for these two circumstances. Try to change the white in the exising code to the red of the red square on the stage. Click on the white colour in the code to get a colour palett and click on the colour-picker at the bottom of the pallett. The screen dimms. Move the colour-picker icon carefully to the stage and align the colour-picker icon on the red square in the stage and click. Note, the need of the pick_a_colour arises because, using the above example, the red on the pallete may be slightly different to the red of the square on the stage.
 8. myModule1BoatRaceRemix.sb3 (click the green flag) (audio).
-_
+
+
 # SB3 Files
 1. Module2MemoryAA.sb3 (audio) Click the green flag and the dancer (sprite) on the stage starts to dance with a white dress and ends with a pink dress. Memorise the colour sequence of the dresses between the white & pink dresses. When the dancer reaches the pink dress, click the drums each in turn, on the stage in the same colour sequence that you memorised for the dancer. If you are successful, the dancer repeates the dance routine, but with one more dress. This continues, one more dress each time, until you click the red hex button to stop the project.
 2. module2DodgeballRemixB.sb3 (click the green flag) (audio) (keyboard keys s  space  y  z   right arrow    left arrow  up arrow   dowm arrow)
@@ -41,8 +42,10 @@ _
 4.  module2CatchTheDots.sb3 (click the green flag) (audio) (keyboard keys right arrow  left-arrow)
 5. shellOfScratchGame.sb3 (click on the buttons)
 6.  mySums.sb3 (click the green flag) (Click on the buttons)
-_
-# SB3 Files 
+
+
+
+# SB3 Files
 ## qed1Level1HungryCat.sb3
 Click on the green flag to start the Scratch project. By using the mouse, guide the cat sprit to the apples. Note that the cat eats each apple it touches. To re-start the Scratch project, click on the red hex button to stop the Scratch project, and then click on the green flag. Note that the apples are restored.
 
@@ -90,28 +93,32 @@ Green flag starts the scratch project abd red hex stops it
 4. left arrow moves the cat left by 1 step
 
 The normal sequence for using this Scratch project is to first click the green flag to get the traffic moving. Then click the cat crossing button to get the cat to attempt to cross the road. The red hex button is used to stop/close Scratch project. If the cat is struck by the car then an accident message is displayed and the Scratch project is automatically stopped.
-_
+
 If you want to, you can click the cat crossing button first and use this Scratch project with no traffic flowing.
-_
+
 Note that the cat does the crossing in two stage, and it stops at the middle of the road. The user has to re-click the cat crossing button for the cat to complete its journey accross the road.
-_
+
+
+
 # SB3 Files
 ## qedAAA1L2dogAndBone.sb3
 Click on Green flag to start and red hex button to stop.
-_
+
 ## qedAAA2L2catchTheDoughnut.sb3
 Click on Green flag to start and red hex button to stop. Click on the falling donut to increase your score.
-_
+
 ## qedAAA3L2upInTheClouds.sb3
 Click on Green flag to start and red hex button to stop. You can control the bi-plane by using the up and down arrow keys on the keyboard
-_
+
 ## qedAAA4L2goingInAsquare.sb3
 Click on Green flag to start and red hex button to stop. 
-_
+
 ## qedAAA5L2perfectsquare.sb3
 Click on Green flag to start and red hex button to stop. 
-_
-_
+
+
+
+# SB3 Files
 1. qedL3BB1floppyFish.sb3
 2. qedL3BB2hpNum1.sb3
 3. qedL3BB3snake.sb3
@@ -166,6 +173,8 @@ At the start of the main part of the game there is one parameter/variable that y
 (a) speed of the ball (comment-box  speedBall)
 
 
+
+# SB3 Files 
 1. cloneEg1.sb3
 2. cloneEg2.sb3
 3. cloneEg3.sb3
@@ -218,13 +227,13 @@ clones are based on.
 Pressing the d key on the keyboad deletes each clone created.
 
 
-__
+
+# SB3 Files 
 1. qedL4D1catAndMouse.sb3
 2. qedL4D2catchThePizzas.sb3
 3. qedL4D3RockBlaster.sb3
 4. qedL4D4BalloonBuster.sb3
 5. qedL4D4BrickBouncer.sb3 
-
 
 ## qedL4D1catAndMouse.sb3
 Click on the Green flag to start and red hex button to stop the game. This project uses CLONES.
@@ -277,7 +286,7 @@ Sprite Baseball Edit BaseBallSpeedSecL
 
 
 
-
+# SB3 Files 
 1. qedL5D1PenguinJumper.sb3
 2. List001one.sb3
 3. qedL5D2TowerSmash.sb3
@@ -285,7 +294,6 @@ Sprite Baseball Edit BaseBallSpeedSecL
 ## qedL5D1PenguinJumper.sb3
 Click on the Green Flag to start and red hex button to stop the game. Position arrow  and click it  to do the jump
 Rename & delete  List
-
 
 ## List001one.sb3
 Click on the Green Flag to start and red hex button to stop the game and Click the 'a' key on the keyboard
@@ -305,21 +313,22 @@ Click on d key to delete the  block/clones
 In the sprite Ball the variable Launches can be Edited
 
 
-__
-__
-__
-__
-__
-# PROBLEM: SCRATCH CODE PANEL, CODE STACK TRAPPED BEHIND THE CODE BLOCK PALETTE
-In the code panel, click on the minus(-) item a few times to reduce the magnification. This may make the trapped code blocks to jut-out from under the palette panel and therefore can be dragged back to the code panel. Drag the top-most block of a stack, otherwise the stack would break-up, givng you another problem to sort out.
+# NOTES ABOUT SCRATCH
+## PROBLEM: IN SCRATCH CODE PANEL, CODE STACK TRAPPED BEHIND THE CODE BLOCK PALETTE
+In the code panel, click on the minus(-) item a few times to reduce the magnification. This may make the trapped code blocks to jut-out from under the palette panel and therefore can be dragged back to the code panel. Drag the top-most block of a stack, otherwise the stack would break-up, giving you another problem to sort out. You can also try clicking the equals(=)
 
 The following are list of items that have some control on the magnification and position of the code blocks in the Scratch code panel.
 
-(a) size of the Internet Browser window (reduced or maximum) (b) Internet Browser Zoom (eg 100%) (c) Scratch stage (where all the action takes place) size (reduced or maximum) (Top, Right) (d) Scratch code panel has three items:    +  -  and =. (e) Various vertical scrolls (f) Various horizontal scroll (g) Scratch code panel (Bottom, Centre), you may have to click Backup(etc...) until you get horizontal scroll. This horizontal scroll may be quite important to move the code blocks out from under the palette. (h) Use mouse pointer to drag the code blocks/stack, remember to use the top-most code block in the stack.
+1. size of the Internet Browser window (reduced or maximum)
+2. Internet Browser Zoom (eg 100%) 
+3. Scratch stage (where all the action takes place) size (reduced or maximum) (Top, Right)
+4. Scratch code panel has three items:    +  -  and =
+5. Various vertical scrolls
+6. Various horizontal scroll
+7. Scratch code panel (Bottom, Centre), you may have to click Backup(etc...) until you get horizontal scroll. This horizontal scroll may be quite important to move the code blocks out from under the palette
 
-# PROBLEM:  TOP OF SCRATCH CODE PANEL,   START (green flag) & STOP (red hex button) BUTTONS DISAPPEARS
-(a) Refresh the Internet browser
-
+## PROBLEM:  TOP OF SCRATCH CODE PANEL,   START (green flag) & STOP (red hex button) BUTTONS DISAPPEARS
+1. Refresh the Internet browser, but before doing this it would be a good idea to save the current code
 
 ## To Delete a Variable in Scratch
 In your code,  edit out all occurances of the variable you want to delete.
