@@ -8,6 +8,7 @@ First, my must have a copy of the sb3 file on your computer. You can download a 
 2. Click on the Download button
 3. Select Show in Folder option and the SB3 file should be in the Downloads folder.
 
+
 1. Internet Browser
 2. http://scratch.mit.edu/
 3. Create
@@ -315,7 +316,7 @@ In the sprite Ball the variable Launches can be Edited
 
 # SB3 Files
 
-##spaceSaucerAversusAliens.sb3
+## spaceSaucerAversusAliens.sb3
 
 Reference:  Raspberry Pi  For Dummies by Sean NcManus and Mike Cook
 
