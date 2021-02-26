@@ -2,6 +2,12 @@
 These files are Scratch .SB3 files, that I produced using Scratch (version 3),  based on the Raspberry Pi Code Club (CC) Module Projects. I have also used: 20 Games To Create With Scratch by Max Wainewright (QED Publishing 2016).
 
 # How to load a SB3 Scratch file into a Scratch WebPage (version 3) (Windows 10.1)
+
+First, my must have a copy of the sb3 file on your computer. You can download a SB3 file from my GitHub site as follows:
+1. Select the SB3 file in my GitHub site
+2. Click on the Download button
+3. Select Show in Folder option and the SB3 file should be in the Downloads folder.
+
 1. Internet Browser
 2. http://scratch.mit.edu/
 3. Create
@@ -307,6 +313,23 @@ Click on d key to delete the  block/clones
 In the sprite Ball the variable Launches can be Edited
 
 
+# SB3 Files
+
+##spaceSaucerAversusAliens.sb3
+
+Reference:  Raspberry Pi  For Dummies by Sean NcManus and Mike Cook
+
+Click on the Green flag to start and red hex button to stop the game.
+
+This project uses:  My Blocks   Variables   if else
+
+Pressing the left-arrow and right-arrow keys on the keyboad controls the x-position of the Ship Sprite.
+
+Pressing the space key fires a fireBall at the alien.  Note that you cannot fire another ball until the current ball has completed its trajectory
+
+Pressing the s key on the keyboard stops the game.
+
+
 # NOTES ABOUT SCRATCH
 ## PROBLEM: IN SCRATCH CODE PANEL, CODE STACK TRAPPED BEHIND THE CODE BLOCK PALETTE
 In the code panel, click on the minus(-) item a few times to reduce the magnification. This may make the trapped code blocks to jut-out from under the palette panel and therefore can be dragged back to the code panel. Drag the top-most block of a stack, otherwise the stack would break-up, giving you another problem to sort out. You can also try clicking the equals(=)
@@ -349,7 +372,7 @@ the unused variable should be available.
 ## To Rename/Delete a Message used in the broadcast code blocks
 I suspect that you cannot directly rename a message. What you can do is create a new message and
 edit your code such that the old message is not used. It looks to me that Scratch noticed that there
-is an unsed message and automatically deletes it.
+is an unused message and automatically deletes it.
 
 
 ## Minimal Notes On Running Up Scratch
