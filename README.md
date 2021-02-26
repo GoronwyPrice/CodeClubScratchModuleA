@@ -4,10 +4,12 @@ These files are Scratch .SB3 files, that I produced using Scratch (version 3),  
 # How to load a SB3 Scratch file into a Scratch WebPage (version 3) (Windows 10.1)
 
 First, my must have a copy of the sb3 file on your computer. You can download a SB3 file from my GitHub site as follows:
+
+'''
 1. Select the SB3 file in my GitHub site
 2. Click on the Download button
 3. Select Show in Folder option and the SB3 file should be in the Downloads folder.
-
+'''
 
 1. Internet Browser
 2. http://scratch.mit.edu/
