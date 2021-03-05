@@ -331,6 +331,17 @@ Pressing the space key fires a fireBall at the alien.  Note that you cannot fire
 
 Pressing the s key on the keyboard stops the game.
 
+# SB3 Files
+
+## Module2CloneWarssb3
+
+Click on the Green flag to start and red hex button to stop the game.
+
+Pressing the left-arrow and right-arrow keys on the keyboad controls the x-position of the Ship Sprite.
+
+Pressing the up-arrow and down-arrow keys on the keyboad controls the y-position of the Ship Sprite.
+
+Pressing the space key fires a Lightning laser at the alien. Note that you cannot fire another Lightning until the current Lightning has completed its trajectory
 
 # NOTES ABOUT SCRATCH
 ## PROBLEM: IN SCRATCH CODE PANEL, CODE STACK TRAPPED BEHIND THE CODE BLOCK PALETTE
