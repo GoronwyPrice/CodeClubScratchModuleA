@@ -333,7 +333,7 @@ Pressing the s key on the keyboard stops the game.
 
 # SB3 Files
 
-## Module2CloneWarssb3
+## Module2CloneWars.sb3
 
 Click on the Green flag to start and red hex button to stop the game.
 
@@ -342,6 +342,59 @@ Pressing the left-arrow and right-arrow keys on the keyboad controls the x-posit
 Pressing the up-arrow and down-arrow keys on the keyboad controls the y-position of the Ship Sprite.
 
 Pressing the space key fires a Lightning laser at the alien. Note that you cannot fire another Lightning until the current Lightning has completed its trajectory
+
+
+# SB3 Files
+
+## module2CreateYourOwnWorld.sb3
+
+To start this game use Green flag and, use the red hex dot to stop the game at any
+time during the game.
+
+Use the arrow keys on the keyboard to move the player sprite: up or down and
+left or right.
+
+The objective is to get the treasure, located in a chest, and return to the starting
+location (left side of room 1).
+
+To learn about this game, use the four arrow keyboard keys to move the player
+to touch the other sprites and backdrop objects. Also, after touching an item,
+move the player backwards until the player is no longer touching an other item.
+Try to touch even the items that move. For some of the objects, touching them
+immediately stops the game. You can them click the Green flag to re-start the game.
+
+Some times there are oblong, backdrop objects on the left and/or right of the Stage.
+When these object appear, the left object is yellow and on the right object is orange.
+If the player touches these objects then a new room is entered and the backdrop
+is changed. The orange object (an exit) takes the player forward room-to-room
+and the yellow object (an exit) takes the player backward room-to-roon. Note that
+this is a simplified description of the effect of touching the yellow and orange objects.
+Note the yellow object is sometimes an entrance for the player esprite.
+
+Enable or disable the variables:  room and coin
+
+Enable or disable the list:  inventory
+
+To out-smart the red, enemy sprite move the player behind the enemy and
+at the correct moment use the down or up arrow to move the player out
+of the path of the returning enemy.
+
+In room 3 the chest sprite appears, but the blue-door bars the player to get to the chest.
+Also present is a blue key sprite. Touching the blue key should result in opening the
+door-blue and in the blue key being added to the inventory.
+
+There is a flaw in my Scratch code when the game is in room 3. At this point the door-blue
+sprite should be visible and the blue key sprite should be visible. Sometime this is
+not so. I suspect that there is a 'race' problem somewhere in my Scratch code. You can
+now investigate this flaw or click on the red hex dot to stop the game and then re-start
+the game.
+
+If the flaw does not occur, touching the chest should result in getting the treasure.
+Then retrace the player's path; but once the player is through the open gate the
+getTreasureI appears in the inventory. Also, at this point the gate is automatically closed !!!
+Then retrace the player's path back to left side of room 1.
+
+
 
 # NOTES ABOUT SCRATCH
 ## PROBLEM: IN SCRATCH CODE PANEL, CODE STACK TRAPPED BEHIND THE CODE BLOCK PALETTE
