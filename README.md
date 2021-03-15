@@ -394,6 +394,41 @@ Then retrace the player's path; but once the player is through the open gate the
 getTreasureI appears in the inventory. Also, at this point the gate is automatically closed !!!
 Then retrace the player's path back to left side of room 1.
 
+# SB3 Files
+
+## module3CATS_BBB.sb3.sb3
+
+To start this game use Green flag and, use the red hex dot to stop the game at any
+time during the game.
+
+After starting the game (click the Green flag) the following two major things happen.
+Firstly, by moving and clicking the mouse pointer, a line can be traced on the stage. 
+This facility can be used to draw a line across the gap in the platform on the Stage.
+Secondly, clones of the cat sprite are continuously generated.
+
+If the gap has not been repaired with a line, the cat clones fall into the pit and are deleted
+when they touch the edge at the bottom of the pit. Experiment with repair
+lines at different levels in the pit, incomplete lines, lines across the pit
+but extending out of the pit, line with curves,  lines not touching the edges of the gap,
+rugged lines etc.
+
+Notice, that the clones when they touch a line climb up to the top of the platform
+on the Stage. Then the clones walk along the top of the platform.
+
+In the top, right corner of the Stage the stationary cat is the orginal cat sprite. The
+clones are copies of this orginal cat sprite. You could modify the code so as to hide
+this cat and/or relocate it on the Stage.
+
+When the clones get near the left edge, they safely exit the Stage through
+the door (i.e. they are deleted if they touch the door). Also the project counts the
+clones that touch the door (variable scoreG). The variable noOfCATclones
+counts the number of clones produced. At the end of the game (click the red dot or
+press the space key on the keyboard) and check if these two variables are equal etc.
+Try to explain whatever result you got (looking at the code might help you).
+
+If the space key on the keyboard is pessed then the generating of the
+cat clones is stopped, and the project waits until all the cat clone have
+been done. Clicking the hex dot stops the code abruptly.
 
 
 # NOTES ABOUT SCRATCH
