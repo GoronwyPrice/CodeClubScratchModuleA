@@ -460,8 +460,6 @@ Click on the sprite Petal and the the following key on the keyboard in turn:
 Click on the sprite Oblong and the the following key on the keyboard in turn:
 1. f	fire works flowers
 
------latest-------------------------------------------------------------------------------------------------------------------------------------
-
 # SB3
 
 ## module3FlowerGeneratorCCC.sb3
@@ -472,6 +470,38 @@ of the project.
 Click on the sprite Petal and the following key on the keyboard:
 s	spectrum of flower colors (ROYGBIV)
 e	erase previous flowers
+
+-----latest-------------------------------------------------------------------------------------------------------------------------------------
+# SB3
+
+## Module3GuessTheFlagBBB.sb3
+
+Click on the Green Flag to Start the project and click on the red hex dot to stop the project at any point during the execution of the project.
+
+Another way to stop the project and a less drastic way is, first get to the place where the set of flags are displayed and the quizz-master has asked the player to click a flag for a particular country. To stop the project, rather than click a flag, press the space key on the keyboard.
+
+The number of flags in the set of flags for the player to choose from is set by the variable: noOfFlagsToChooseFromL. This variable can be edited and it is located in the block script 'when green flag clicked'. The value of this variable should be in the range 1 to 8. Modiy the code to not allow this variable to be not outside this range.
+
+
+Note: The character L or G appended on the end of the variables mean:
+1. L - local i.e. visible (scope) only for a particular esprite and
+2. G - global i.e. visible for all the esprites in the project
+
+The number of successes achieved by the player is stored in the  varable called:  scoreG.
+
+
+
+Have a look at the following code that gives too much help to the game player.
+Modify the code so that the game player does not get this help.
+
+'when this sprite clicked' for the Flag sprite then:
+CostumeNameG and CostumeNumberG,  as in Flag list,  are displayed.
+This helps to check if the code is working,  but it also helps the game player.
+
+The following variables, that are for ChosenFlags list  is enabled:
+CorrectAnswerG
+This helps to check if the code is working,  but it also helps the game player.
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 # NOTES ABOUT SCRATCH
