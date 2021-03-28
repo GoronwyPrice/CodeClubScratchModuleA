@@ -471,7 +471,7 @@ Click on the sprite Petal and the following key on the keyboard:
 s	spectrum of flower colors (ROYGBIV)
 e	erase previous flowers
 
------latest-------------------------------------------------------------------------------------------------------------------------------------
+
 # SB3
 
 ## Module3GuessTheFlagBBB.sb3
@@ -501,6 +501,34 @@ This helps to check if the code is working,  but it also helps the game player.
 The following variables, that are for ChosenFlags list  is enabled:
 CorrectAnswerG
 This helps to check if the code is working,  but it also helps the game player.
+
+
+-----latest-------------------------------------------------------------------------------------------------------------------------------------
+# SB3
+
+## DisplayTextClonesAAA.sb3
+
+Click on the Green flag to start this project, and click on the red hex dot to stop it at any time during its execution .
+
+The My Blocks called DisplayText uses the input parameter called text to get the actual text to be displayed. The actual text is set to the variable textL.
+and can be edited to any digit value by the user of the project.
+
+The input parameter called characterWidth is set in the variable characterWidthL that can be edited. It governs the separation between the characters/digits
+in the text when displayed.
+
+The input parameter called align is used in DisplayText to align the text with the left-most or right-most character in the input text. This alignment can be
+demonstrated by displaying two or more texts on diferent rows,  above/below each other. If the alignment is set to RIGHT then the texts (numbers) are aligned
+with the units for each text/number in the same vertical column. If the LEFT alignment is used then the numbers are aligned similar to to a postal address.
+The alignment variable is called alignL and can be edited to either LEFT or RIGHT.
+
+Note: Variables are appended with either L, G or B
+1. L = local i.e. they are visible in the sprite only
+2. G = global i.e. they are visible across all the sprites
+3. B = block i.e. they are like local but used only in a My Block
+
+Before each call to DisplayText there are two code blocks: set textL that has
+the text number to be displayed and go to x y code block used to locate
+the row (y-coordinate) and column (x-coordinate) for the text number
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
