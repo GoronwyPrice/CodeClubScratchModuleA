@@ -502,8 +502,6 @@ The following variables, that are for ChosenFlags list  is enabled:
 CorrectAnswerG
 This helps to check if the code is working,  but it also helps the game player.
 
-
------latest-------------------------------------------------------------------------------------------------------------------------------------
 # SB3
 
 ## DisplayTextClonesAAA.sb3
@@ -530,6 +528,11 @@ Before each call to DisplayText there are two code blocks: set textL that has
 the text number to be displayed and go to x y code block used to locate
 the row (y-coordinate) and column (x-coordinate) for the text number
 
+-----latest--------------------------------------------------------------------------------------------------------------------------------
+
+# SB3
+
+ShowNumClonesMessAAA.sb3
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 # NOTES ABOUT SCRATCH
