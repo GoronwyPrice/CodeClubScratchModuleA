@@ -528,11 +528,28 @@ Before each call to DisplayText there are two code blocks: set textL that has
 the text number to be displayed and go to x y code block used to locate
 the row (y-coordinate) and column (x-coordinate) for the text number
 
+# SB3
+
+## ShowNumClonesMessAAA.sb3
+
 -----latest--------------------------------------------------------------------------------------------------------------------------------
 
 # SB3
 
-ShowNumClonesMessAAA.sb3
+## Module3LineUpAAA.txt
+
+The project is started by clicking on the Start Green Flag and it can be stopped at any point in its execution by clicking on the red hex button.
+
+The variable TimeScoreL stores the time in seconds it takes the player to find the person and the
+variable CurtainCountDownInSecL stores the time remaining for the curtain to be up and open.
+
+At the start of the game once the green flag has been clicked these two variables are initialised to a question mark.
+
+The following messages are displayed as the game progesses.
+
+Welcome,    Wait a moment,    Find me,    Curtain will go up any moment now.
+
+When the message 'Find me' appears then a large image of a person is displayed as well for a short time. The player then when the curtains goes up has a choice of people displayed on the Stage,  The player now has to remember the person that said 'Find me' and click on the icon of the person on the screen. If the player clicks on the correct person the message,  for example,  'You found me in 3.89 secs' should appear. If a wrong person was click then  no message appears. The variable TimeScoreL should display, for example, 3.89 sec or ? depending on if the player had found the correct person icon.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 # NOTES ABOUT SCRATCH
