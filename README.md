@@ -566,25 +566,21 @@ Stage. If the player gets the parrot through the gaps in all of the pipes then l
 The number of times the player manages to guide the parrot through the pipe-gaps is counted by the variable Score. Further, the project keeps a record of the highest score from previous occasions this game was played, in the variable HighScore. Note by tapping the r key on the keyboard, the HighScore variable is reset to zero.
 
 Try to identify the code for the following. Note that changing any of these make the game easier or more difficult.
-# 1 maximum number of clones of the pipes  (esprite Pipe, When Green Flag Clicked)
-# 2 the time interval between the clones (esprite Pipe, When Green Flag Clicked)
-# 3 gliding time of the pipe clone (esprite Pipe, When I Start As A Clone)
-# 4 delay before the clone is deleted as it has reached the end of this travel (esprite Pipe, When I Start As A Clone)
+1. maximum number of clones of the pipes  (esprite Pipe, When Green Flag Clicked)
+2. the time interval between the clones (esprite Pipe, When Green Flag Clicked)
+3. gliding time of the pipe clone (esprite Pipe, When I Start As A Clone)
+4. delay before the clone is deleted as it has reached the end of this travel (esprite Pipe, When I Start As A Clone)
 
-Yes, you are quite right, there are two scripts called: When I Start As A Clone. This is how I believe it should work but I'm not too sure,
- i.e two threads running in parallel controlling the clones of the esprite Pipe.
+Yes, you are quite right, there are two scripts called: When I Start As A Clone. This is how I believe it should work but I'm not too sure, i.e two threads running in parallel controlling the clones of the esprite Pipe.
 
-Still with these scripts, one of them has the Scratch code block:
-x position of Parrot.
-To find this, look in the Scratch code block palette called:
-Sensing for a code block that has the 'of' word in it: it might be:
-backdrop# of Stage or something 'similar' with the word 'of'.
-Experiment with the two drop-down arrows to get the required code block and note that these drop-down arrows are dependent on each other.
+Still with these scripts, one of them has the Scratch code block: x position of Parrot. To find this, look in the Scratch code block palette called: Sensing for a code block that has the 'of' word in it: it might be: backdrop# of Stage or something 'similar' with the word 'of'. Experiment with the two drop-down arrows to get the required code block and note that these drop-down arrows are dependent on each other.
 
+<pre>
 The code here I think is quick tricky. However, note the following example of the values  of  three variables (decreasing in value top to bottom)
 XpositionPipeClones1G   162   (start of the pipe clone gliding)
 XpositionPipeClones2G   -51.408   (parrot has just gone through the pipe gap)
 XpositionPipeClones3G   -162  (end of the pipe clone gliding)
+<pre>
 
 The variable XpositionParrotEspritBG, for example, is  -50 and this value is greater (less negative) than  -51.408 for XpositionPipeClones2G. This is the condition where the parrot has just been guided successfully through the gap of the clone pipe and so the variable Score can be incremented.
 
