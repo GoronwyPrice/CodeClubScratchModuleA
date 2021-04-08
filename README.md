@@ -532,11 +532,11 @@ the row (y-coordinate) and column (x-coordinate) for the text number
 
 ## ShowNumClonesMessAAA.sb3
 
------latest--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
 
 # SB3
 
-## Module3LineUpAAA.txt
+## Module3LineUpAAA.sb3
 
 The project is started by clicking on the Start Green Flag and it can be stopped at any point in its execution by clicking on the red hex button.
 
@@ -550,6 +550,49 @@ The following messages are displayed as the game progesses.
 Welcome,    Wait a moment,    Find me,    Curtain will go up any moment now.
 
 When the message 'Find me' appears then a large image of a person is displayed as well for a short time. The player then when the curtains goes up has a choice of people displayed on the Stage,  The player now has to remember the person that said 'Find me' and click on the icon of the person on the screen. If the player clicks on the correct person the message,  for example,  'You found me in 3.89 secs' should appear. If a wrong person was click then  no message appears. The variable TimeScoreL should display, for example, 3.89 sec or ? depending on if the player had found the correct person icon.
+
+---- latest ---------------------------------------------------------------------------------------------------------------------
+
+# SB3
+
+## Module3FloppyParrotCCC.sb3
+
+Click on the Start Green Flag to start this project, and to stop the project
+at any point in its execution click on the red hex dot.
+
+A series of pipes with gaps should appear gliding from right to left. The player has to guide the parrot through these gaps without the parrot touching the pipes or the edges of the Stage. To keep the parrot air-bourne, tap on the space-bar on the keyboard, otherwise the parrot would be pulled down by gravity and eventually touch the bottom edge of the
+Stage. If the player gets the parrot through the gaps in all of the pipes then leave the parrot to fall to the ground and so end the game.
+
+The number of times the player manages to guide the parrot through the pipe-gaps is counted by the variable Score. Further, the project keeps a record of the highest score from previous occasions this game was played, in the variable HighScore. Note by tapping the r key on the keyboard, the HighScore variable is reset to zero.
+
+Try to identify the code for the following. Note that changing any of these make the game easier or more difficult.
+# 1 maximum number of clones of the pipes  (esprite Pipe, When Green Flag Clicked)
+# 2 the time interval between the clones (esprite Pipe, When Green Flag Clicked)
+# 3 gliding time of the pipe clone (esprite Pipe, When I Start As A Clone)
+# 4 delay before the clone is deleted as it has reached the end of this travel (esprite Pipe, When I Start As A Clone)
+
+Yes, you are quite right, there are two scripts called: When I Start As A Clone. This is how I believe it should work but I'm not too sure,
+ i.e two threads running in parallel controlling the clones of the esprite Pipe.
+
+Still with these scripts, one of them has the Scratch code block:
+x position of Parrot.
+To find this, look in the Scratch code block palette called:
+Sensing for a code block that has the 'of' word in it: it might be:
+backdrop# of Stage or something 'similar' with the word 'of'.
+Experiment with the two drop-down arrows to get the required code block and note that these drop-down arrows are dependent on each other.
+
+The code here I think is quick tricky. However, note the following example of the values  of  three variables (decreasing in value top to bottom)
+XpositionPipeClones1G   162   (start of the pipe clone gliding)
+XpositionPipeClones2G   -51.408   (parrot has just gone through the pipe gap)
+XpositionPipeClones3G   -162  (end of the pipe clone gliding)
+
+The variable XpositionParrotEspritBG, for example, is  -50 and this value is greater (less negative) than  -51.408 for XpositionPipeClones2G. This is the condition where the parrot has just been guided successfully through the gap of the clone pipe and so the variable Score can be incremented.
+
+Note that the Parrot (Esprite) is really stationary in the x-direction and it is the Pipe (clones) that move: this makes it appear that the Parrot move relative to the Pipe.
+
+Note the letter G and the end of a variable is my indicator that the variable is a global variable, i.e. visible across all the esprites.
+
+The variable x position in the Motion palette of code blocks is part of the internals of Scratch.  Characteristics for this variable is quite critical in understanding  how Scratch works here. As I'll not too sure of my facts so I'll stop at this point.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 # NOTES ABOUT SCRATCH
