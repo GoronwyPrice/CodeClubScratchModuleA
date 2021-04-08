@@ -580,7 +580,7 @@ The code here I think is quick tricky. However, note the following example of th
 XpositionPipeClones1G   162   (start of the pipe clone gliding)
 XpositionPipeClones2G   -51.408   (parrot has just gone through the pipe gap)
 XpositionPipeClones3G   -162  (end of the pipe clone gliding)
-<pre>
+</pre>
 
 The variable XpositionParrotEspritBG, for example, is  -50 and this value is greater (less negative) than  -51.408 for XpositionPipeClones2G. This is the condition where the parrot has just been guided successfully through the gap of the clone pipe and so the variable Score can be incremented.
 
