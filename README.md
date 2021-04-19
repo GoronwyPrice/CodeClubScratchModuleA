@@ -551,7 +551,7 @@ Welcome,    Wait a moment,    Find me,    Curtain will go up any moment now.
 
 When the message 'Find me' appears then a large image of a person is displayed as well for a short time. The player then when the curtains goes up has a choice of people displayed on the Stage,  The player now has to remember the person that said 'Find me' and click on the icon of the person on the screen. If the player clicks on the correct person the message,  for example,  'You found me in 3.89 secs' should appear. If a wrong person was click then  no message appears. The variable TimeScoreL should display, for example, 3.89 sec or ? depending on if the player had found the correct person icon.
 
----- latest ---------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 # SB3
 
@@ -589,6 +589,53 @@ Note that the Parrot (Esprite) is really stationary in the x-direction and it is
 Note the letter G and the end of a variable is my indicator that the variable is a global variable, i.e. visible across all the esprites.
 
 The variable x position in the Motion palette of code blocks is part of the internals of Scratch.  Characteristics for this variable is quite critical in understanding  how Scratch works here. As I'll not too sure of my facts so I'll stop at this point.
+
+------------- latest ---------------------------------------------------------------------------------------------------------------------------
+#SB3
+
+##  Module3BinaryHeroCCC.sb3
+
+## Basic Operation
+The basic way to play this game is fist, ensure that the two lists called NotesLG and TimesLG are empty (length 0). This can be done by using the edit facilities (click on an entry and click on x) associated with the lists. Then click the Green Flag to start the project, and press the keys v, c, x and z in turn. You should notice on the Stage that the correct circle is momentarily activated. and the value of the musical note is displayed in the variable NoteDG. Further if the Speakers on the computer you are using are
+enabled then you should hear a note being played as well. Note that holding down the key for a long time does NOT cause two or multple notes to be played. To play two or nore notes in sequence you have to release the key between each note.
+
+<pre>
+You can play two or three notes at the same time; for example:
+c and v                NoteDG = 3
+z znd x                NoteDG = 12
+c and x                NoteDG = 6
+x, c and v             NoteDG = 7
+</pre>
+
+I've noticed that multiple keys do not work quite a lot of the time, and it is not obvious to me why this is so. My guesses for this failure are:
+
+1. Keyboard on a computer is not designed to have more that one character/digit key pressed at the same time. Though ctrl, shift or alt can be pressed with a character/digit key are popular in some apps.
+
+2. Scratch allows us to code with multiple 'when green flag clicked' i.e. multiple code threads in the project. This can give rise to 'race' problems in the Scratch code.
+
+3. A flaw in the design of the Scratch code
+
+When you are pressing the keys, be sure that you have focus on the scratch window.
+
+
+## Advanced Operation
+Ensure that the project is NOT running i.e. click on the red hex button.
+
+You can edit the scratch code to set the notes/times you want. To do this click on the esprite called 'note' and scroll to the 'My Block' called
+Load'HappyBirthDay'. You can have 0, 1, 2 etc AddNote blocks that have a note/time pair. The note is its value and the time is the time in seconds the note
+is to be played including the time it takes to scroll down the Stage panel.
+
+Then press the h key to automatically load notes and times into the  two lists called NotesLG and TimesLG. The length of both lists should be the number of AddNote blocks in Load'HappyBirthDay'.
+
+Then click on the Green Flag to start the project. After a few seconds, depending on the times edited into the list TimesLG above, the notes should appear scrolling down the Stage panel. When the notes are on top of the circles on the Stage press the keys on the keyboard corresponding to the scrolling notes. The note value that you keyed-in is displayed in the variable NoteDG and the actual value of the notes scrolling down (and in the list) is displayed in the variable note: costume name. If these two variables are the same then the backdrop changed momentarily indicating you were successfull, and the variable ScoreG would be incremented by one. If they are different the backdrop changed momentarily indicating you were unsuccessfull, and the variable ScoreG would remain unchanged.
+
+Note you can key-in the note value when the notes have not yet reached the circles on the Stage, but then the timming of the sequence of notes would
+not be quite right.
+
+The time for scrolling the notes is 4 seconds. If you want to change this to make it easier or more difficult then edit the Scratch code as follows.
+Click on the esprite called 'note' and
+1. scroll to the script for 'When Green Flag Clicked' and in the block 'Wait Until....' edit the 4 as required
+2. scroll to the script for 'When I Start As a Clone' and in the block 'Glide...' edit the 4 as required (same value used in the above as required)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 # NOTES ABOUT SCRATCH
