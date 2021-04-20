@@ -590,10 +590,10 @@ Note the letter G and the end of a variable is my indicator that the variable is
 
 The variable x position in the Motion palette of code blocks is part of the internals of Scratch.  Characteristics for this variable is quite critical in understanding  how Scratch works here. As I'll not too sure of my facts so I'll stop at this point.
 
-------------- latest ---------------------------------------------------------------------------------------------------------------------------
-#SB3
+----------------------------------------------------------------------------------------------------------------------------------------
+# SB3
 
-##  Module3BinaryHeroCCC.sb3
+## Module3BinaryHeroCCC.sb3
 
 ## Basic Operation
 The basic way to play this game is fist, ensure that the two lists called NotesLG and TimesLG are empty (length 0). This can be done by using the edit facilities (click on an entry and click on x) associated with the lists. Then click the Green Flag to start the project, and press the keys v, c, x and z in turn. You should notice on the Stage that the correct circle is momentarily activated. and the value of the musical note is displayed in the variable NoteDG. Further if the Speakers on the computer you are using are
@@ -636,6 +636,22 @@ The time for scrolling the notes is 4 seconds. If you want to change this to mak
 Click on the esprite called 'note' and
 1. scroll to the script for 'When Green Flag Clicked' and in the block 'Wait Until....' edit the 4 as required
 2. scroll to the script for 'When I Start As a Clone' and in the block 'Glide...' edit the 4 as required (same value used in the above as required)
+
+-----------latest----------------------------------------------------------------------------------------------------------------------------
+
+# SB3
+
+## AP_UsernameGeneratorAAA.sb3
+
+Inherent in this project are two list files, called adjectives and nouns, with a set of words. These files were part of the Raspberry/CodeClub/AP starter files used to develop this project. AP is short for Additional Projects. This project uses scratch code blocks to create a username from these list files and appends a two-digit number to produce the final username.
+
+By enabling these list files so that they are displayed on the Stage panel, the player can use the edit facilities (click on + at the bottom left of the list files etc) to add other words to these files. After editing ensure there the same number of entries are in both lists (i.e. both lists have the same length).
+
+To initialsie the project ensure that the list file called NamesILikeLG is enabled and displayed in the Stage panel. Then click on the green flag.
+
+To produce a new username click on the Owl esprite in the Stage panel to display the adjective-noun of the new username. If you like the name click on the Button 4, Tick esprite to have a two-digit number appended to the username and added to the NamesILikeLG list. Repeat clicking on the Owl a few times. Then click on a clear area in the list to get options and click on export. The name of the exported file, NamesILikeLG.txt appear on the bottom left of the scratch window. Use the facilites (Show in Folder etc) to navigate to the file. Use Notepad to open the file and check that the usernames are correct.
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 # NOTES ABOUT SCRATCH
