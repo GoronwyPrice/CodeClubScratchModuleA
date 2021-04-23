@@ -637,7 +637,7 @@ Click on the esprite called 'note' and
 1. scroll to the script for 'When Green Flag Clicked' and in the block 'Wait Until....' edit the 4 as required
 2. scroll to the script for 'When I Start As a Clone' and in the block 'Glide...' edit the 4 as required (same value used in the above as required)
 
------------latest----------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
 
 # SB3
 
@@ -650,6 +650,48 @@ By enabling these list files so that they are displayed on the Stage panel, the 
 To initialsie the project ensure that the list file called NamesILikeLG is enabled and displayed in the Stage panel. Then click on the green flag.
 
 To produce a new username click on the Owl esprite in the Stage panel to display the adjective-noun of the new username. If you like the name click on the Button 4, Tick esprite to have a two-digit number appended to the username and added to the NamesILikeLG list. Repeat clicking on the Owl a few times. Then click on a clear area in the list to get options and click on export. The name of the exported file, NamesILikeLG.txt appear on the bottom left of the scratch window. Use the facilites (Show in Folder etc) to navigate to the file. Use Notepad to open the file and check that the usernames are correct.
+
+-------latest---------------------------------------------------------------------------------------------------------------------------------------
+
+# SB3
+
+## AP_ScratchCatGoesSkiingAAA.sb3
+
+To start this game click on the green flag and to stop the game by clicking on the red hex dot.
+
+### Tree Esprite
+The Tree Esprite controls the obstacles that the Cat skier must avoid. If there is a crash between these two Esrites the game stops automatically. The variable ScoreG is the count of obstacles that the Cat skier avoided.
+
+In the script for 'When Green Flag Clicked' for the Tree Esprite there are numbers in two code blocks that might be useful to change.
+
+The code block called 'glide' has a number that controls the speed of the trees passing by the Cat skier:
+increasing this number decreases the speed and decreasing this number increases the speed.
+
+The code block called 'wait seconds' is the time intrerval between each tree.
+
+### Cat Esprite
+Press the 'left arrow' key on the keypad and the Cat skier move to the left.
+
+Press the 'right arrow' key on the keypad and the Cat skier move to the right.
+
+Note that you can continue holding the key down to get rapid multiple moves, but try to avoid doing this as the cat might then go off the edge of the Stage panel. If this happends use the appropritae key (left or right) to get the Cat back on the Stage panel. In the worse case, click on the red hex dot to stop the game and then the Green Flag to restart the game. This should bring the Cat back to the center of the Stage panel.
+
+If you want to do, for example, two presses with the same key, then make sure you release the key before you do the second key press.
+
+A style to use to control the Cat Skier is to alternate left and right key presses and this should give the impression that the Cat is skiing down hill and it passes trees on either side of the ski slope.
+
+There are two other controls for the Cat Skier: (i) press the key 'a'   {ii}  press the key 'b'.
+These have coded algorithms for the style of skiing used by the Cat Skier.
+
+In the script for 'When b key pressed' for the Cat Esprite you can alter a number in the code block
+'set GlideSecG to'. This allows you to alter the speed of the Cat Skier.
+
+In the scripts 'When a key pressed' and  'When b key pressed' for the Cat Esprite and for a code block
+called 'repeat' you can alter the elapse time that the 'a' key and 'b' key operations.
+
+It might be a good idea to let 'a key pressed' complete its opeation before doing 'b key pressed' and vice versa.
+
+
 
 
 
